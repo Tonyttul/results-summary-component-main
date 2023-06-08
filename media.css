@@ -16,9 +16,37 @@
         margin-top: 3em;
     }
     .btn p {
+        margin: 30em auto;
+    }
+    footer .attribution{
+        margin-top: 38em;
+    }
+    .center {
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    body {
+        width: 250px;
+        scroll-behavior: smooth;
+    }
+    .wrapper {
+        flex-direction: column;
+        width: 250px;
+    }
+    .first-col {
+        width: 375px;
+        height: 600px;
+        margin-top: -7em;
+    }
+    .content-1 h4 {
+        margin-top: 3em;
+    }
+    .btn p {
         margin-top: 2em;
     }
-    footer {
+    footer .attribution{
         margin-top: 38em;
     }
     .center {
@@ -45,7 +73,7 @@
     .center {
         box-shadow: none;
     }
-    footer {
+    footer .attribution{
         margin-top: 38em;
     }
     .btn p {
