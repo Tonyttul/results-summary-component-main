@@ -152,7 +152,7 @@ strong {
     width: 100%;
     height: 50px;
     border-radius: 5em;
-    background-color: hsl(241, 100%, 89%);
+    background-color: hsl(224, 30%, 27%);
 }
 .btn:hover {
     background: linear-gradient(0deg,  hsl(241, 81%, 54%) 30%, hsl(252, 100%, 67%) 80%);
